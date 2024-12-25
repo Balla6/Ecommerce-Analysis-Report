@@ -27,7 +27,6 @@ This analysis focuses on a dataset from Pakistan's largest e-commerce platform (
 ### **3.1 Revenue Trends**
 - **Total Revenue:** PKR 1,170,213,075.77.
 - **Monthly Revenue Trends:**
-![Monthly Revenue Trends]("C:/Users/balla/Downloads/monthly_revenue_trends.png")
   - Revenue peaked in **November 2017** and **January 2018**.
   - Sharp dips observed in **April 2018** and **June 2018**.
   - Possible causes for spikes include **Black Friday campaigns** and **seasonal sales**.
