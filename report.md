@@ -86,7 +86,38 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 
 ---
 
-### **3.4 Payment Insights**
+### **3.4 Advanced Insights**
+#### **Chart: Discount Amount vs Revenue**
+- **Insight:** Discounts don’t consistently lead to proportional increases in revenue.
+- **Observation:** There’s a threshold where additional discounts stop significantly impacting revenue growth.
+
+**Actionable Recommendations:**
+1. Test the impact of varying discount thresholds to optimize profitability.
+2. Focus on targeted discounts for high-value customers.
+
+---
+
+#### **Chart: Distribution of Quantity Ordered**
+- **Insight:** Most orders involve single items, with very few bulk purchases.
+- **Observation:** The skewed distribution suggests opportunities to promote bulk orders.
+
+**Actionable Recommendations:**
+1. Offer bundle deals or incentives for higher quantities ordered.
+2. Introduce free shipping thresholds to encourage bulk purchases.
+
+---
+
+#### **Chart: Correlation Heatmap**
+- **Insight:** A strong correlation exists between `qty_ordered` and `grand_total` (0.88).
+- **Observation:** Increasing order quantities directly impacts total revenue.
+
+**Actionable Recommendations:**
+1. Leverage the correlation by promoting higher quantities per order.
+2. Create upselling opportunities during checkout to encourage more purchases.
+
+---
+
+### **3.5 Payment Insights**
 #### **Chart: Revenue by Payment Method**
 - **Insight:** Cash on Delivery (COD) led with PKR 393M, followed by Easypay Voucher (PKR 283M).
 - **Observation:** Digital payment methods are gaining traction but remain secondary to COD.
@@ -107,7 +138,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 
 ---
 
-### **3.5 Sales Timing Insights**
+### **3.6 Sales Timing Insights**
 #### **Chart: Sales by Day of the Week**
 - **Insight:** Friday recorded the highest revenue (~PKR 332M), likely due to payday effects or weekly promotions.
 - **Observation:** Sunday had the lowest sales (~PKR 120M), indicating reduced customer activity.
@@ -122,8 +153,9 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 1. **Seasonal Campaigns:** Focus on November and January for peak revenue and develop strategies for slow months like June.
 2. **Customer Retention:** Implement loyalty programs for repeat customers and engagement strategies for occasional buyers.
 3. **Product Strategy:** Prioritize investment in Mobiles & Tablets while reassessing underperforming categories.
-4. **Payment Optimization:** Encourage digital payment adoption to reduce operational risks.
-5. **Sales Timing:** Use data-driven insights to plan campaigns around high-activity days and months.
+4. **Discount Strategies:** Optimize discounting thresholds to balance revenue and profitability.
+5. **Payment Optimization:** Encourage digital payment adoption to reduce operational risks.
+6. **Sales Timing:** Use data-driven insights to plan campaigns around high-activity days and months.
 
 ---
 
