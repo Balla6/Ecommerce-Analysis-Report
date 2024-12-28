@@ -44,13 +44,15 @@ This project includes both Python-generated charts and Power BI visualizations f
 - This dashboard provides interactive insights into revenue trends, customer behavior, and payment methods.
 
 ### **Saved Power BI Visualizations (Images):**
-- `visualizations/monthly_revenue_trends.png`: Monthly revenue trends (2016–2018).
-- `visualizations/yearly_revenue_comparison.png`: Yearly comparison of monthly revenue trends.
-- `visualizations/top_products_by_revenue.png`: Top products by revenue.
-- `visualizations/revenue_by_category.png`: Revenue by product category.
-- `visualizations/customer_insights.png`: Customer purchase frequency and revenue contribution.
-- `visualizations/payment_method_analysis.png`: Revenue and transactions by payment method.
-- `visualizations/sales_by_day.png`: Sales by day of the week.
+- `monthly_revenue_trends.png`: Monthly revenue trends (2016–2018).
+- `yearly_revenue_comparison.png`: Yearly comparison of monthly revenue trends.
+- `top_products_by_revenue.png`: Top products by revenue.
+- `revenue_by_category.png`: Revenue by product category.
+- `top_customers_by_revenue.png`: Top customers by revenue contribution.
+- `customer_purchase_frequency.png`: Distribution of customer purchase frequency.
+- `revenue_by_payment_method.png`: Revenue by payment method.
+- `transactions_by_payment_method.png`: Number of transactions by payment method.
+- `sales_by_day.png`: Sales by day of the week.
 
 ### **Python-Generated Visualizations:**
 - **Revenue Distribution**: Histogram of revenue (grand total) to identify distribution patterns.
