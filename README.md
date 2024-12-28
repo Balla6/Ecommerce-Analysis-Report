@@ -35,8 +35,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 This project includes interactive Power BI visualizations for better understanding of key metrics and trends. 
 
 - **Power BI Dashboard:**  
-  [Click here to access the interactive Power BI report](<https://app.powerbi.com/groups/me/reports/2d0ad03f-3a9f-47c1-857b-3e4c2ac9aa1a/59d50d94607e6d483c24?experience=power-bi
->).
+  Click here to access the interactive Power BI report: (https://app.powerbi.com/groups/me/reports/2d0ad03f-3a9f-47c1-857b-3e4c2ac9aa1a/59d50d94607e6d483c24?experience=power-bi).
 
 - **Saved Visualizations (Images):**
   - **Monthly Revenue Trends:** `visualizations/monthly_revenue_trends.png`
