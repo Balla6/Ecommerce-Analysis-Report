@@ -23,7 +23,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 
 ## **Datasets**
 - **Original Dataset**  
-  - **File:** `data/Pakistan_Largest_Ecommerce_Dataset.zip.csv`  
+  - **File:** `Pakistan Largest Ecommerce Dataset.csv.zip`  
   - **Description:** The raw dataset containing over 1 million records of e-commerce transactions from 2016–2018. This dataset was used as the starting point for cleaning and analysis.  
 
 - **Cleaned Dataset**  
