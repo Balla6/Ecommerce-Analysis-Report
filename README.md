@@ -30,6 +30,25 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
   - **File:** `Cleaned_Ecommerce_Dataset.xlsx`  
   - **Description:** The cleaned and preprocessed version of the original dataset. This file includes only completed transactions and key features necessary for analysis after addressing missing values, removing duplicates, and filtering invalid data.
 
+## Visualizations
+
+This project includes interactive Power BI visualizations for better understanding of key metrics and trends. 
+
+- **Power BI Dashboard:**  
+  [Click here to access the interactive Power BI report](<https://app.powerbi.com/groups/me/reports/2d0ad03f-3a9f-47c1-857b-3e4c2ac9aa1a/59d50d94607e6d483c24?experience=power-bi
+>).
+
+- **Saved Visualizations (Images):**
+  - **Monthly Revenue Trends:** `visualizations/monthly_revenue_trends.png`
+  - **Yearly Revenue Comparison:** `visualizations/yearly_revenue_comparison.png`
+  - **Top Products by Revenue:** `visualizations/top_products_by_revenue.png`
+  - **Revenue by Product Category:** `visualizations/revenue_by_category.png`
+  - **Customer Insights:** `visualizations/customer_insights.png`
+  - **Payment Method Analysis:** `visualizations/payment_method_analysis.png`
+  - **Sales by Day of the Week:** `visualizations/sales_by_day.png`
+
+To view the Power BI report directly, please use the link provided above.
+
 ## **How to Use**
 1. View the full analysis and recommendations in `report.md`.
 2. Explore the Power BI visualizations in the `visualizations/` folder.
