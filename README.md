@@ -56,7 +56,6 @@ This project includes both Python-generated charts and Power BI visualizations f
 - **Revenue Distribution**: Histogram of revenue (grand total) to identify distribution patterns.
 - **Top Categories and Products by Revenue**: Bar charts for high-performing categories and products.
 - **Customer Purchase Frequency Analysis**: Distribution of purchase frequency, highlighting high-value customers.
-- **Discount Amount vs Revenue (Scatter)**: Scatter plot to explore relationships between discounts and revenue.
 - **Discount Amount vs Average Revenue (Binned)**: Bar chart showing average revenue across discount bins.
 - **Quantity Ordered Distribution**: Histogram illustrating ordering patterns.
 - **Correlation Heatmap**: Visualizing relationships between numeric variables.
