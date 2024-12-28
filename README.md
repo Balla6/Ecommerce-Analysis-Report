@@ -7,6 +7,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 - Understand revenue drivers and seasonal trends.
 - Identify high-value customers and top-performing products.
 - Optimize payment methods and campaign strategies.
+- Demonstrate data cleaning, exploratory data analysis (EDA), and visualization skills using Python and Power BI.
 
 ## **Key Findings**
 - **Total Revenue:** PKR 1,170,213,075.77.
@@ -15,11 +16,15 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 - **Highest Revenue Month:** November 2017.
 
 ## **Files in This Repository**
-- `README.md`: Project overview and goals.
-- `report.md`: Detailed analysis report with insights and recommendations.
-- `data/`: Contains the original and cleaned datasets.
-- `notebooks/`: Python notebooks for data cleaning and EDA.
-- `visualizations/`: Power BI visualizations.
+- `README.md`: Project overview and repository structure.
+- `report.md`: Detailed analysis report with insights and actionable recommendations.
+- `data/`: 
+  - `Pakistan Largest Ecommerce Dataset.csv.zip`: The raw dataset.
+  - `Cleaned_Ecommerce_Dataset.xlsx`: The cleaned and preprocessed dataset.
+- `notebooks/`: 
+  - `SACIP_data_loading_and_cleaning.ipynb`: Notebook for data loading, cleaning, and preprocessing.
+  - `SACIP_exploratory_data_analysis.ipynb`: Notebook for exploratory data analysis (EDA) and Python visualizations.
+- `visualizations/`: Saved images of Power BI visualizations and a link to the interactive dashboard.
 
 ## **Datasets**
 - **Original Dataset**  
@@ -30,30 +35,45 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
   - **File:** `Cleaned_Ecommerce_Dataset.xlsx`  
   - **Description:** The cleaned and preprocessed version of the original dataset. This file includes only completed transactions and key features necessary for analysis after addressing missing values, removing duplicates, and filtering invalid data.
 
-## Visualizations
+## **Visualizations**
+This project includes both Python-generated charts and Power BI visualizations for comprehensive insights:
 
-This project includes interactive Power BI visualizations for better understanding of key metrics and trends. 
+### **Power BI Dashboard**
+- **Link:** [Interactive Power BI Report](https://app.powerbi.com/groups/me/reports/2d0ad03f-3a9f-47c1-857b-3e4c2ac9aa1a/59d50d94607e6d483c24?experience=power-bi)
+- This dashboard provides interactive insights into revenue trends, customer behavior, and payment methods.
 
-- **Power BI Dashboard:**  
-  Click here to access the interactive Power BI report: (https://app.powerbi.com/groups/me/reports/2d0ad03f-3a9f-47c1-857b-3e4c2ac9aa1a/59d50d94607e6d483c24?experience=power-bi).
+### **Saved Power BI Visualizations (Images):**
+- `visualizations/monthly_revenue_trends.png`: Monthly revenue trends (2016–2018).
+- `visualizations/yearly_revenue_comparison.png`: Yearly comparison of monthly revenue trends.
+- `visualizations/top_products_by_revenue.png`: Top products by revenue.
+- `visualizations/revenue_by_category.png`: Revenue by product category.
+- `visualizations/customer_insights.png`: Customer purchase frequency and revenue contribution.
+- `visualizations/payment_method_analysis.png`: Revenue and transactions by payment method.
+- `visualizations/sales_by_day.png`: Sales by day of the week.
 
-- **Saved Visualizations (Images):**
-  - **Monthly Revenue Trends:** `visualizations/monthly_revenue_trends.png`
-  - **Yearly Revenue Comparison:** `visualizations/yearly_revenue_comparison.png`
-  - **Top Products by Revenue:** `visualizations/top_products_by_revenue.png`
-  - **Revenue by Product Category:** `visualizations/revenue_by_category.png`
-  - **Customer Insights:** `visualizations/customer_insights.png`
-  - **Payment Method Analysis:** `visualizations/payment_method_analysis.png`
-  - **Sales by Day of the Week:** `visualizations/sales_by_day.png`
-
-To view the Power BI report directly, please use the link provided above.
+### **Python-Generated Visualizations:**
+- Distribution of revenue.
+- Top categories and products by revenue.
+- Customer purchase frequency analysis.
+- Correlation heatmaps for understanding relationships between variables.
+  
+These visualizations are available in `SACIP_exploratory_data_analysis.ipynb`.
 
 ## **How to Use**
-1. View the full analysis and recommendations in `report.md`.
-2. Explore the Power BI visualizations in the `visualizations/` folder.
-3. Run the Python notebooks in the `notebooks/` folder to reproduce the analysis.
+1. **View the Analysis:**
+   - Check `report.md` for detailed insights and recommendations.
+   - Explore the Power BI dashboard using the link provided.
+
+2. **Run the Python Notebooks:**
+   - Use the `SACIP_data_loading_and_cleaning.ipynb` notebook to see data preprocessing steps.
+   - Run the `SACIP_exploratory_data_analysis.ipynb` notebook for Python-generated EDA and visualizations.
+
+3. **Explore the Visualizations:**
+   - Access saved Power BI images in the `visualizations/` folder.
+   - Use the Power BI report for interactive data exploration.
 
 ---
 
 ## **Conclusion**
-This project demonstrates the use of data-driven insights to optimize business strategies. The findings highlight key areas for improvement in customer engagement, product performance, and seasonal campaign planning.
+This project demonstrates the use of data-driven insights to optimize business strategies and improve customer engagement. By leveraging both Python and Power BI, the analysis provides a well-rounded view of e-commerce performance and opportunities for growth.
+
