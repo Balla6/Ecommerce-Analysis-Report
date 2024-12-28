@@ -17,9 +17,18 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 ## **Files in This Repository**
 - `README.md`: Project overview and goals.
 - `report.md`: Detailed analysis report with insights and recommendations.
-- `data/`: Contains the cleaned dataset.
+- `data/`: Contains the original and cleaned datasets.
 - `notebooks/`: Python notebooks for data cleaning and EDA.
 - `visualizations/`: Power BI visualizations.
+
+## **Datasets**
+- **Original Dataset**  
+  - **File:** `data/Pakistan_Largest_Ecommerce_Dataset.zip.csv`  
+  - **Description:** The raw dataset containing over 1 million records of e-commerce transactions from 2016–2018. This dataset was used as the starting point for cleaning and analysis.  
+
+- **Cleaned Dataset**  
+  - **File:** `data/Cleaned_Ecommerce_Dataset.xlsx`  
+  - **Description:** The cleaned and preprocessed version of the original dataset. This file includes only completed transactions and key features necessary for analysis after addressing missing values, removing duplicates, and filtering invalid data.
 
 ## **How to Use**
 1. View the full analysis and recommendations in `report.md`.
