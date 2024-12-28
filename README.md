@@ -7,6 +7,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 - Understand revenue drivers and seasonal trends.
 - Identify high-value customers and top-performing products.
 - Optimize payment methods and campaign strategies.
+- Explore relationships between discounts, revenue, and other factors using Python-generated visualizations.
 - Demonstrate data cleaning, exploratory data analysis (EDA), and visualization skills using Python and Power BI.
 
 ## **Key Findings**
@@ -24,7 +25,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
 - `notebooks/`: 
   - `SACIP_data_loading_and_cleaning.ipynb`: Notebook for data loading, cleaning, and preprocessing.
   - `SACIP_exploratory_data_analysis.ipynb`: Notebook for exploratory data analysis (EDA) and Python visualizations.
-- `visualizations/`: Saved images of Power BI visualizations and a link to the interactive dashboard.
+- `visualizations/`: Saved images of Power BI visualizations and Python-generated charts.
 
 ## **Datasets**
 - **Original Dataset**  
@@ -52,12 +53,13 @@ This project includes both Python-generated charts and Power BI visualizations f
 - `visualizations/sales_by_day.png`: Sales by day of the week.
 
 ### **Python-Generated Visualizations:**
-- Distribution of revenue.
-- Top categories and products by revenue.
-- Customer purchase frequency analysis.
-- Correlation heatmaps for understanding relationships between variables.
-  
-These visualizations are available in `SACIP_exploratory_data_analysis.ipynb`.
+- **Revenue Distribution**: Histogram of revenue (grand total) to identify distribution patterns.
+- **Top Categories and Products by Revenue**: Bar charts for high-performing categories and products.
+- **Customer Purchase Frequency Analysis**: Distribution of purchase frequency, highlighting high-value customers.
+- **Discount Amount vs Revenue (Scatter)**: Scatter plot to explore relationships between discounts and revenue.
+- **Discount Amount vs Average Revenue (Binned)**: Bar chart showing average revenue across discount bins.
+- **Quantity Ordered Distribution**: Histogram illustrating ordering patterns.
+- **Correlation Heatmap**: Visualizing relationships between numeric variables.
 
 ## **How to Use**
 1. **View the Analysis:**
@@ -76,4 +78,3 @@ These visualizations are available in `SACIP_exploratory_data_analysis.ipynb`.
 
 ## **Conclusion**
 This project demonstrates the use of data-driven insights to optimize business strategies and improve customer engagement. By leveraging both Python and Power BI, the analysis provides a well-rounded view of e-commerce performance and opportunities for growth.
-
