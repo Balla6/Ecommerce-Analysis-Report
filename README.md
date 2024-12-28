@@ -35,6 +35,7 @@ This project analyzes a dataset from Pakistan's largest e-commerce platform (201
   - `visualizations/top_products_by_revenue.png`
   - `visualizations/transactions_by_payment_method.png`
   - `visualizations/customer_purchase_frequency.png`
+  - `visualizations/python_visualizations.pdf`
 
 ## **Datasets**
 - **Original Dataset**  
@@ -66,8 +67,6 @@ This project includes both Python-generated charts and Power BI visualizations f
 
 - **Python-Generated Visualizations:**
   - **Revenue Distribution**: Histogram of revenue (grand total) to identify distribution patterns.
-  - **Top Categories and Products by Revenue**: Bar charts for high-performing categories and products.
-  - **Customer Purchase Frequency Analysis**: Distribution of purchase frequency, highlighting high-value customers.
   - **Discount Amount vs Average Revenue (Binned)**: Bar chart showing average revenue across discount bins.
   - **Quantity Ordered Distribution**: Histogram illustrating ordering patterns.
   - **Correlation Heatmap**: Visualizing relationships between numeric variables.
